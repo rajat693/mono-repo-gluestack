@@ -1,0 +1,22 @@
+{
+  "name": "mono-repo-gluestack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rajat693/mono-repo-gluestack.git",
+  "author": "rajat693 <rajatchaudhary.rc693@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/**"
+  ],
+  "scripts": {
+    "dev:next15": "cd apps/next-15 && yarn dev"
+  },
+  "resolutions": {
+    "/react": "18.3.1",
+    "/react-dom": "18.3.1",
+    "apps/next-15/react": "19.0.0",
+    "apps/next-15/react-dom": "19.0.0"
+  }
+}

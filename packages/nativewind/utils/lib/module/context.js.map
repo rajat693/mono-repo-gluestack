@@ -1,0 +1,1 @@
+{"version":3,"names":["createContext","useContext","ParentContext","useStyleContext"],"sourceRoot":"../../src","sources":["context.ts"],"mappings":"AAAA,YAAY;;AACZ,SAASA,aAAa,EAAEC,UAAU,QAAQ,OAAO;AACjD,OAAO,MAAMC,aAAa,gBAAGF,aAAa,CAAC,CAAC,CAAC,CAAC;AAE9C,OAAO,MAAMG,eAAe,GAAGA,CAAA,KAAM;EACnC,OAAOF,UAAU,CAACC,aAAa,CAAC;AAClC,CAAC"}
