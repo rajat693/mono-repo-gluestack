@@ -11,7 +11,8 @@
     "packages/**"
   ],
   "scripts": {
-    "dev:next15": "cd apps/next-15 && yarn dev"
+    "dev:next15": "cd apps/next-15 && yarn dev",
+    "start:expo52": "cd apps/expo-52 && yarn start"
   },
   "resolutions": {
     "/react": "18.3.1",
